@@ -8,7 +8,6 @@ pipeline{
         artifactId = readMavenPom().getArtifactId()
         version = readMavenPom().getVersion()
         name = readMavenPom().getName()
-        groupId = readMavenPom().getGroupId()
     }
 
 
@@ -43,7 +42,6 @@ pipeline{
             steps{
                 echo "Artifact ID is '${artifactId}'"
                 echo "Version is '${version}'"
-                echo "Group ID is '${groupId}'"
                 echo "Name is '${name}'"
             }
         }
