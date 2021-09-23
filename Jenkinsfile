@@ -32,10 +32,10 @@ pipeline{
                  [[artifactId: "${artifactId}", classifier: '', 
                 file: 'target/SwethaLab-0.0.4-SNAPSHOT.war', type: 'war']], 
                 credentialsId: 'd71323f2-a0a5-4ae3-955b-044b06527a9b',
-                groupId: "${groupId}", nexusUrl: '172.20.10.46:8081',
+                groupId: "${groupId}", nexusUrl: '172.20.10.211:8081',
                 nexusVersion: 'nexus3', protocol: 'http', 
                 repository: 'SwethaDevOpsLab-SNAPSHOT', 
-                version: "{version}"
+                version: "${version}"
             }
         }
         //Stage 4 : Print some information
