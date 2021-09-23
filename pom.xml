@@ -4,7 +4,7 @@
   <groupId>com.Swethalab</groupId>
   <artifactId>SwethaLab</artifactId>
   <packaging>war</packaging>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4</version>
   <name>SwethaLab</name>
   <url>http://maven.apache.org</url>
   <dependencies>
